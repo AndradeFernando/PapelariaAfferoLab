@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: afferolab.chalenge.papelaria.PapelariaAfferoLab.PapelariaAfferoLabApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.668 s - in afferolab.chalenge.papelaria.PapelariaAfferoLab.PapelariaAfferoLabApplicationTests
