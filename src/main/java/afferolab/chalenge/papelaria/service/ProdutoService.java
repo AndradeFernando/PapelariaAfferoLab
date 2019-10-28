@@ -24,8 +24,8 @@ public class ProdutoService {
         return produtoRespository.findById(id);
     }
 
-    public Produto save(Produto stock) {
-        return produtoRespository.save(stock);
+    public Produto save(Produto produto) {
+        return produtoRespository.save(produto);
     }
 
     public void deleteById(Long id) {

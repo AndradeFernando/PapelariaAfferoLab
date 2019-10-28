@@ -159,3 +159,108 @@
 2019-10-28 15:04:36.241  INFO 25564 --- [http-nio-8091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-10-28 15:04:36.241  INFO 25564 --- [http-nio-8091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-10-28 15:04:36.263  INFO 25564 --- [http-nio-8091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-10-28 18:03:50.885  INFO 3064 --- [main] c.p.P.PapelariaAfferoLabApplicationTests : Starting PapelariaAfferoLabApplicationTests on DESKTOP-6D3TVQD with PID 3064 (started by ferna in D:\GIT_Workspace\PapelariaAfferoLab)
+2019-10-28 18:03:50.905  INFO 3064 --- [main] c.p.P.PapelariaAfferoLabApplicationTests : No active profile set, falling back to default profiles: default
+2019-10-28 18:03:51.661  INFO 3064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-28 18:03:51.738  INFO 3064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces.
+2019-10-28 18:03:52.060  INFO 3064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-28 18:03:52.292  INFO 3064 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-28 18:03:52.377  INFO 3064 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-28 18:03:52.548  INFO 3064 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-28 18:03:52.868  INFO 3064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-28 18:03:52.871  WARN 3064 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-28 18:03:53.123  INFO 3064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-28 18:03:53.146  INFO 3064 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-10-28 18:03:53.971  INFO 3064 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-28 18:03:53.978  INFO 3064 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:03:54.469  WARN 3064 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-28 18:03:54.720  INFO 3064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:03:55.123  INFO 3064 --- [main] c.p.P.PapelariaAfferoLabApplicationTests : Started PapelariaAfferoLabApplicationTests in 4.673 seconds (JVM running for 5.758)
+2019-10-28 18:03:55.270  INFO 3064 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:03:55.272  INFO 3064 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:03:55.274  INFO 3064 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-28 18:03:55.288  INFO 3064 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-28 18:18:42.926  INFO 3812 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Starting ProdutoTests on DESKTOP-6D3TVQD with PID 3812 (started by ferna in D:\GIT_Workspace\PapelariaAfferoLab)
+2019-10-28 18:18:42.928  INFO 3812 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : No active profile set, falling back to default profiles: default
+2019-10-28 18:18:43.432  INFO 3812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-28 18:18:43.493  INFO 3812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 1 repository interfaces.
+2019-10-28 18:18:43.797  INFO 3812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-28 18:18:44.011  INFO 3812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-28 18:18:44.076  INFO 3812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-28 18:18:44.194  INFO 3812 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-28 18:18:44.480  INFO 3812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-28 18:18:44.482  WARN 3812 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-28 18:18:44.610  INFO 3812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-28 18:18:44.625  INFO 3812 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-10-28 18:18:45.198  INFO 3812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-28 18:18:45.271  INFO 3812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:18:45.847  WARN 3812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-28 18:18:46.042  INFO 3812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:18:46.412  INFO 3812 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Started ProdutoTests in 3.752 seconds (JVM running for 4.637)
+2019-10-28 18:18:46.764  INFO 3812 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:18:46.765  INFO 3812 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:18:46.767  INFO 3812 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-28 18:18:46.779  INFO 3812 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-28 18:19:00.842  INFO 1648 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Starting ProdutoTests on DESKTOP-6D3TVQD with PID 1648 (started by ferna in D:\GIT_Workspace\PapelariaAfferoLab)
+2019-10-28 18:19:00.844  INFO 1648 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : No active profile set, falling back to default profiles: default
+2019-10-28 18:19:01.651  INFO 1648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-28 18:19:01.741  INFO 1648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
+2019-10-28 18:19:02.161  INFO 1648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-28 18:19:02.467  INFO 1648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-28 18:19:02.565  INFO 1648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-28 18:19:02.724  INFO 1648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-28 18:19:02.992  INFO 1648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-28 18:19:02.997  WARN 1648 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-28 18:19:03.186  INFO 1648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-28 18:19:03.209  INFO 1648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-10-28 18:19:03.998  INFO 1648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-28 18:19:04.006  INFO 1648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:19:04.510  WARN 1648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-28 18:19:04.880  INFO 1648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:19:05.222  INFO 1648 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Started ProdutoTests in 4.759 seconds (JVM running for 6.618)
+2019-10-28 18:19:06.238  INFO 1648 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:19:06.239  INFO 1648 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:19:06.241  INFO 1648 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-28 18:19:06.253  INFO 1648 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-28 18:21:28.424  INFO 5860 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Starting ProdutoTests on DESKTOP-6D3TVQD with PID 5860 (started by ferna in D:\GIT_Workspace\PapelariaAfferoLab)
+2019-10-28 18:21:28.426  INFO 5860 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : No active profile set, falling back to default profiles: default
+2019-10-28 18:21:28.955  INFO 5860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-28 18:21:29.017  INFO 5860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 1 repository interfaces.
+2019-10-28 18:21:29.331  INFO 5860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-28 18:21:29.537  INFO 5860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-28 18:21:29.617  INFO 5860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-28 18:21:29.735  INFO 5860 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-28 18:21:30.002  INFO 5860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-28 18:21:30.005  WARN 5860 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-28 18:21:30.121  INFO 5860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-28 18:21:30.136  INFO 5860 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-10-28 18:21:30.668  INFO 5860 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-28 18:21:30.674  INFO 5860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:21:31.096  WARN 5860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-28 18:21:31.340  INFO 5860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:21:31.730  INFO 5860 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Started ProdutoTests in 3.633 seconds (JVM running for 4.501)
+2019-10-28 18:21:32.033  INFO 5860 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:21:32.034  INFO 5860 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:21:32.036  INFO 5860 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-28 18:21:32.045  INFO 5860 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-28 18:22:47.784  INFO 21004 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Starting ProdutoTests on DESKTOP-6D3TVQD with PID 21004 (started by ferna in D:\GIT_Workspace\PapelariaAfferoLab)
+2019-10-28 18:22:47.786  INFO 21004 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : No active profile set, falling back to default profiles: default
+2019-10-28 18:22:48.291  INFO 21004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-28 18:22:48.349  INFO 21004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
+2019-10-28 18:22:48.641  INFO 21004 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-28 18:22:48.833  INFO 21004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-28 18:22:48.892  INFO 21004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-28 18:22:49.007  INFO 21004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-28 18:22:49.277  INFO 21004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-28 18:22:49.280  WARN 21004 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-28 18:22:49.399  INFO 21004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-28 18:22:49.414  INFO 21004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-10-28 18:22:49.964  INFO 21004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-28 18:22:49.969  INFO 21004 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:22:50.403  WARN 21004 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-28 18:22:50.603  INFO 21004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:22:50.945  INFO 21004 --- [main] a.c.p.PapelariaAfferoLab.ProdutoTests    : Started ProdutoTests in 3.454 seconds (JVM running for 4.299)
+2019-10-28 18:22:51.310  INFO 21004 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-28 18:22:51.311  INFO 21004 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-28 18:22:51.315  INFO 21004 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-28 18:22:51.327  INFO 21004 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

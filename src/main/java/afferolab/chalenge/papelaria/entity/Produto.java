@@ -21,12 +21,18 @@ public class Produto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @Column(name = "codigo_de_barras")
+    @Column(name = "codigo_de_barras",length=13)
     private String codigoDeBarras;
     
+    @Column(length=50)
     private String nome;
+    
+    @Column(length=150)
     private String descricao;
+    
+    @Column(length=50)
     private String categoria;
+    
     private Integer quantidade;
 
     @CreationTimestamp
