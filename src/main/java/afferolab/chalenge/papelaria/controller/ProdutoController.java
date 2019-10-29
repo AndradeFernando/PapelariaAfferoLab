@@ -33,8 +33,12 @@ public class ProdutoController {
     public ResponseEntity<Produto> update(@PathVariable Long id, @Valid @RequestBody Produto produto) {
         if (!produtoService.findById(id).isPresent()) {
             ResponseEntity.badRequest().build();
+            
+        } else {
+        	produto.setId(id);
         }
 
+        log.info(produto.getId() + "-" + produto.getNome());
         return ResponseEntity.ok(produtoService.save(produto));
     }
 

@@ -40,6 +40,4 @@ public class Produto {
 
     @UpdateTimestamp
     private Date atualizacao;
-  
 }
-
