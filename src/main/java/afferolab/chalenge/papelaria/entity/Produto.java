@@ -1,6 +1,7 @@
 package afferolab.chalenge.papelaria.entity;
 
 import java.sql.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,12 +11,39 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+
 import lombok.Data;
 
 @Data
 @Entity
 @Table(name = "produto", schema = "afferolabpapelaria")
+
 public class Produto {
+	
+	
+	public  Produto() {
+		
+	}
+	
+	public  Produto(String nome, String descricao, String categoria, String codigoDeBarras, int quantidade) {
+		this.nome=nome;
+		this.descricao=descricao;
+		this.categoria=categoria;
+		this.codigoDeBarras=codigoDeBarras;
+		this.quantidade=quantidade;
+	}
+	
+	public  Produto(Long id, String nome, String descricao, String categoria, String codigoDeBarras, int quantidade) {
+		this.id=id;
+		this.nome=nome;
+		this.descricao=descricao;
+		this.categoria=categoria;
+		this.codigoDeBarras=codigoDeBarras;
+		this.quantidade=quantidade;
+	}
+	
+	
+	
 	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
