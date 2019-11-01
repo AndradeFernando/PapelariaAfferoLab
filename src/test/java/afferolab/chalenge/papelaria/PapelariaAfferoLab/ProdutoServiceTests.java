@@ -59,11 +59,7 @@ public class ProdutoServiceTests {
 		 
 	  }
 	 
-	 @Test 
-	 public void testDelete() {
-	  		 
 
-	  }
 	 
 	 @Test 
 	 public void createAndUpdate() {
