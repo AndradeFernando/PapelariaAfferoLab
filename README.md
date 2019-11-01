@@ -10,4 +10,4 @@ Rodar esse api de forma básica:
 mvn spring-boot:run
 
 - Pontos pendentes:
- 1 - Pagina de Login + JWT
+ 1 - Pagina de Login
