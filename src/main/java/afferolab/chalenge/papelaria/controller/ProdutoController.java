@@ -33,6 +33,7 @@ public class ProdutoController {
     public ResponseEntity<Produto> update(@PathVariable Long id, @Valid @RequestBody Produto produto) {
         if (!produtoService.findById(id).isPresent()) {
             ResponseEntity.badRequest().build();
+            log.info("testing git hub");
             
         } else {
         	produto.setId(id);
