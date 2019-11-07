@@ -9,3 +9,5 @@ For further reference, please consider the following sections:
 Rodar esse api de forma basica:
 mvn spring-boot:run
 
+Essa edicao e pra testar o github pull request merge
+
