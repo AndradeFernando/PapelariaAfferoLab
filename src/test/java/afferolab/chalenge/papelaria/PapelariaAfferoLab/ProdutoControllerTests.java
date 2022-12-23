@@ -50,10 +50,5 @@ public class ProdutoControllerTests {
 		 assertThat(produtoController.update(produto.getId(),produto)).isNotNull();
 		 
 	  }
-	 
-	 @Test 
-	 public void delete() {
-	  		 
-		 assertThat(produtoController.delete(new Long(1))).isNotNull();
-	  }
+
 }

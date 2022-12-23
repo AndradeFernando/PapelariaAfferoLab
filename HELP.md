@@ -11,3 +11,6 @@ mvn spring-boot:run
 
 Essa edicao e pra testar o github pull request merge
 
+docker-compose -f docker-compose-dev.yml up
+
+mvn clean test

@@ -96,9 +96,6 @@
 			        <includes>
 			            <include>**/*.class</include>
 			        </includes>
-			        <ExcludeGroups>
-			            afferolab.chalenge.papelaria.PapelariaAfferoLab.APIIntegrationTests
-			        </ExcludeGroups>
 			    </configuration>
 			</plugin>
 			
