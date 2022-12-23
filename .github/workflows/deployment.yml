@@ -1,7 +1,7 @@
 name: Deploy Project
 on: push
 jobs:
-  test code:
+  test:
     runs-on: macos-11
     steps:
       - name: Get code from Repo!
