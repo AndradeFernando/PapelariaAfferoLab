@@ -1,12 +1,16 @@
-name: First Workflow
-on: workflow_dispatch
-jobs: 
-  myfirst-job:
+name: Test Project
+on: push
+jobs:
+  test:
     runs-on: macos-11
     steps:
-      - name: Print greeting
-        run:  | 
-            echo "Hello World 1!"
-            echo "Hello World 2!"            
-      - name: Print good bye
-        run: echo "Done - bye!"
+      - name: Get code from Repo!
+        uses: actions/checkout@v3
+      - name: Installing JDK 11!
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '17'
+      - name: Build using beautiful Maven!
+        run: mvn --batch-mode --update-snapshots clean test
+
