@@ -43,10 +43,10 @@ public class ProdutoControllerTests {
 	 @Test 
 	 public void createAndUpdate() {
 		 
-		 Produto produto = new Produto("Papel A4","Papel A4 para impressão a laser","Papel", "1234567898765",234);  		 
-		 assertThat(produtoController.create(produto)).isNotNull();		 
+		 Produto produto = new Produto("Papel A4","Papel A4 para impressão a laser","Papel", "1234567898765",234);
+		 assertThat(produtoController.create(produto)).isNotNull();
 		 
-		 produto = new Produto(produto.getId(), "Papel A4","Papel A4 para impressão a laser","Papel", "1111111111111",234);  		 
+		 produto = new Produto(produto.getId(), "Papel A4","Papel A4 para impressão a laser","Papel", "1111111111111",234);
 		 assertThat(produtoController.update(produto.getId(),produto)).isNotNull();
 		 
 	  }

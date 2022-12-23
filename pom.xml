@@ -82,10 +82,30 @@
 	    <version>1.9.5</version>
 	</dependency>
 
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>2.1.214</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<version>9.10.1</version>
+				<configuration>
+					<user>user</user>
+					<password>user</password>
+					<url>jdbc:h2:mem:afferolabpapelaria</url>
+					<locations>filesystem:db/migration</locations>
+					<schemas>
+						<schema>afferolabpapelaria</schema>
+					</schemas>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

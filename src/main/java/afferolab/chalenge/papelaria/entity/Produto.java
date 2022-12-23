@@ -46,7 +46,7 @@ public class Produto {
 	
 	
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     
     @Column(name = "codigo_de_barras",length=13)
