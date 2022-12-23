@@ -13,16 +13,16 @@ jobs:
           java-version: '17'
       - name: Build using beautiful Maven!
         run: mvn --batch-mode --update-snapshots clean test
-    deploy:
-      runs-on: macos-11
-      steps:
-        - name: Get code from Repo!
-          uses: actions/checkout@v3
-        - name: Installing JDK 11!
-          uses: actions/setup-java@v3
-          with:
-            distribution: 'temurin' # See 'Supported distributions' for available options
-            java-version: '17'
-        - name: Deploying code...
-          run: echo "Code is deploying..."
+  deploy:
+    runs-on: macos-11
+    steps:
+      - name: Get code from Repo!
+        uses: actions/checkout@v3
+      - name: Installing JDK 11!
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '17'
+      - name: Deploying code...
+        run: echo "Code is deploying..."
 
